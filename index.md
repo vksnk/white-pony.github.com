@@ -9,7 +9,6 @@ title: white-pony's blog
 		<div class="front">
 		<div align="right" class="date-container">{{ post.date | date:"%A, %e %B %Y" | upcase }}</div>
 		<h3><a href="{{ post.url }}">{{ post.title }} </a></h3>
-
 	        {{ post.content }}
       </div>
       {% if forloop.last == false %}
